@@ -1,0 +1,51 @@
+.main_top {
+    min-height: 600px;
+    background-color: #8EE4AF;
+}
+
+.main_top_container {
+    padding-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_header {
+    font-size: 63px;
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 20px;    
+    color: #379683 !important;
+}
+
+.main_description {
+    padding-top: 30px;
+}
+
+.main_description_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.main_description_txt {
+    font-size: 36px;  
+}
+
+.main_spec {
+    margin-bottom: 20px;
+}
+
+.main_spec_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.main_spec_header {
+    font-size: 30px;
+}

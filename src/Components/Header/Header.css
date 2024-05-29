@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background: transparent;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 65px;
+    position: relative;
+}
+
+
+.logo_block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 50px;;
+    max-height: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dark {
+    background: #161b22;
+    opacity: 0.9;
+}
+
+.menu {
+    padding: 15px;
+    background: #555657;
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    top: 44px;
+    opacity: 0;
+    display: flex;
+}
+
+.spec_link:hover .menu,
+.menu_hover {
+    opacity: 1;
+}

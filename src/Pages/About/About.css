@@ -1,0 +1,19 @@
+.about {
+    background: #379683;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+.about_header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_header {
+    font-size: 60px;
+}
+
+.about_text {
+    font-size: 27px;
+}

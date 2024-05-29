@@ -1,0 +1,23 @@
+.specialist_name_block {
+    background: #379683;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+.specialist_top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specialist_header {
+    font-size: 54px;
+}
+
+.specialist_txt {
+    font-size: 27px;
+}
+
+.specialist_list_mini {
+    font-size: 34px;
+}
